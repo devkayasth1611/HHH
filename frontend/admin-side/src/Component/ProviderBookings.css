@@ -1,0 +1,31 @@
+/* Ensure content doesn't hide behind the sidebar */
+.provider-bookings-container {
+    padding: 20px;
+    margin-left: 250px; /* Adjust based on sidebar width */
+    min-height: 100vh; /* Ensure the container takes up full height */
+  }
+  
+  /* For responsive table */
+  .table-responsive {
+    overflow-x: auto;
+  }
+  
+  .table {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f4f4f4;
+  }
+  
+  button {
+    padding: 6px 12px;
+    margin-top: 5px;
+  }
+  
